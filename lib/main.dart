@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Netflix',
       theme: ThemeData(
+        appBarTheme: AppBarTheme(backgroundColor: Colors.transparent),
         primarySwatch: Colors.blue,
         backgroundColor: backgroundColor,
         scaffoldBackgroundColor: backgroundColor,
